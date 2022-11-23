@@ -3,8 +3,9 @@ fn main() {
     let x = x + 1;
 
     {
-        let x = x * 2;
-        println!("The value of x in the inner scope is: {x}");
+        let tup = (500, 420, 69);
+        let (x, y, z) = tup;
+        println!("x: {x} y: {y}, z: {z}");
     }
 
     println!("The value of x is: {x}");
