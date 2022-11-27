@@ -6,7 +6,9 @@ fn main() {
         let tup = (500, 420, 69);
         let (x, y, z) = tup;
         println!("x: {x} y: {y}, z: {z}");
+        let first_entry = tup.0;
+        println!("x is: {first_entry}");
     }
 
-    println!("The value of x is: {x}");
+    println!("the value of x is: {x}");
 }
